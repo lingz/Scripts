@@ -1,5 +1,6 @@
 #!/bin/bash
 # i3 thread: https://faq.i3wm.org/question/150/how-to-launch-a-terminal-from-here/?answer=152#post-id-152
+# starts a urxvt in the same directory
 
 #!/bin/bash
 ID=$(xdpyinfo | grep focus | cut -f4 -d " ")
