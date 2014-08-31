@@ -19,7 +19,7 @@ if [ "$#" == 0 ]; then
   echo "=== Containers: ==="
   echo
   echo "= Active ="
-  docker ps | grep MB
+  docker ps
   echo
   echo "= Untagged ="
   untagged_containers 0

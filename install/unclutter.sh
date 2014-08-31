@@ -1,3 +1,3 @@
 #!/bin/bash
 
-apt-get install unclutter
+apt-get install -y unclutter

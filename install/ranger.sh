@@ -1,3 +1,3 @@
 #!/bin/bash
 
-apt-get install ranger
+apt-get install -y ranger

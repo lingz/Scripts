@@ -1,4 +1,4 @@
-apt-get install i3lock
-apt-get install imagemagick
-apt-get install scrot
-apt-get install xautolock
+apt-get install -y i3lock
+apt-get install -y imagemagick
+apt-get install -y scrot
+apt-get install -y xautolock
