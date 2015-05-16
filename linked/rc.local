@@ -11,9 +11,8 @@
 #
 # By default this script does nothing.
 
-echo "YES" > /home/ling/test
-echo -n 200 > /sys/devices/platform/i8042/serio1/serio2/speed
+sleep 5
+echo -n 160 > /sys/devices/platform/i8042/serio1/serio2/speed
 echo -n 200 > /sys/devices/platform/i8042/serio1/serio2/sensitivity
-echo "NO" > /home/ling/test
 
 exit 0

@@ -15,4 +15,4 @@ DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 parentdir="$(dirname "$DIR")"
 
 apt-get install xclip
-ln -s $parentdir/urxvt-clipboard /usr/lib/urxvt/perl/clipboard
+ln -s $parentdir/linked/urxvt-clipboard /usr/lib/urxvt/perl/clipboard
