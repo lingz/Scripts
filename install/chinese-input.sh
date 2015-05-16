@@ -1,5 +1,5 @@
 #!/bin/bash
 
-apt-get install fcitx fcitx-pinyin fcitx-sunpinyin fcitx-googlepinyin fcitx-anthy fcitx-mozc 
+sudo apt-get install ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4 ibus-googlepinyin
 
-echo "Open synaptic and install ui and dbus"
+echo "try im-config to activate ibus"
